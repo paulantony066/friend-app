@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter name"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint=" Enter name"
+        android:id="@+id/name"
+        android:textColorHint="#7C7F80"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter friend name"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="friend name"
+        android:textColorHint="#7C7F80"
+        android:id="@+id/fname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friend nickname"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint=" Enter nickname"
+        android:textColorHint="#7C7F80"
+        android:id="@+id/fnick"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Describe friend"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="Description"
+        android:id="@+id/disc"
+        android:textColorHint="#7C7F80"
+
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:layout_margin="20px"
+        android:id="@+id/log"
+
+        />
+</LinearLayout>
